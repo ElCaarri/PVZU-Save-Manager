@@ -82,7 +82,7 @@ pip install pyinstaller
 2. Run the build command:  
 
 ```bash
-python \-m PyInstaller \--noconsole \--onefile main.py
+python -m PyInstaller --noconsole --onefile main.py
 ```
  
 3. You will find your executable in the dist folder. **Don't forget to copy the lang.json file next to it so the languages work\!**
